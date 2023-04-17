@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MailController {
 
 	@RequestMapping("/welcome")
-	public String welcome() {
+	public String welcome2() {
 		
 		return "hello";
 	}
